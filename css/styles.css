@@ -547,8 +547,12 @@ input::placeholder {
     border-radius: 4px;
     padding: 8px 24px;
     min-width: 165px;
-    height: 40px;
-    margin-top: 16px;   
+    height: 40px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 .subscribe {
@@ -565,10 +569,9 @@ input::placeholder {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-top: 16px;
 }
 
- .form-input::placeholder {
+ .form-input-email::placeholder {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -579,14 +582,26 @@ input::placeholder {
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding-left: 16px;
+    background-color: transparent;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
  }
- .box-sub {
+ 
+
+ .footer-social-subtitle {
+    margin-bottom: 16px;
+ }
+
+ .modal-form {
     display: flex;
     gap: 24px;
  }
 
- .in-footer {
-    margin-top: 16px;
+ .subscribe-button svg {
+    margin-left: 16px;
  }
