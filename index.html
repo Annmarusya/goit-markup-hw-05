@@ -59,51 +59,6 @@
             Order Service
           </button>
         </div>
-        <div class="modal-overlay is-open">
-          <div class="modal">
-            <h3 class="modal-subtitle">
-              Leave your contacts and we will call you back
-            </h3>
-            <form class="modal-form" autocomplete="off" name="reg-form">
-              <label class="form-label input">
-                Name
-                <input type="text" name="username" class="form-input"
-              /></label>
-              <label class="form-label input">
-                Phone
-                <input type="tel" name="contact-tel" class="form-input"
-              /></label>
-              <label class="form-label input">
-                Email
-                <input type="email" class="form-input" name="contact-email"
-              /></label>
-              <label class="form-label input">
-                Comment
-                <textarea
-                  name="comment"
-                  rows="5"
-                  placeholder="Text input"
-                ></textarea>
-              </label>
-              <div class="form-privacy">
-                <input
-                  class="checkbox"
-                  type="checkbox"
-                  name="accept"
-                  value="I accept the terms and conditions of the Privacy Policy"
-                  required
-                />
-                <label class="form-label"
-                  >I accept the terms and conditions of the
-                  <a href="./index.html" class="privacy-policy"
-                    >Privacy Policy</a
-                  ></label
-                >
-              </div>
-              <button type="submit" class="form-button">Send</button>
-            </form>
-          </div>
-        </div>
       </section>
       <section class="features">
         <div class="container">
@@ -635,7 +590,7 @@
             /></label>
             <button type="submit" class="subscribe-button">
               Subscribe
-              <svg width="24" height="24">
+              <svg width="24" height="24" class="subscr-pic">
                 <use href="./images/icons.svg#icon-Frame"></use>
               </svg>
             </button>
@@ -643,5 +598,50 @@
         </div>
       </div>
     </footer>
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <h3 class="modal-subtitle">
+          Leave your contacts and we will call you back
+        </h3>
+        <form class="modal-form" autocomplete="off" name="reg-form">
+          <label class="form-label input">
+            Name
+            <input type="text" name="username" class="form-input"
+          /></label>
+          <label class="form-label input">
+            Phone
+            <input type="tel" name="contact-tel" class="form-input"
+          /></label>
+          <label class="form-label input">
+            Email
+            <input type="email" class="form-input" name="contact-email"
+          /></label>
+          <label class="form-label input">
+            Comment
+            <textarea
+              name="comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <div class="form-privacy">
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="accept"
+              value="I accept the terms and conditions of the Privacy Policy"
+              required
+            />
+            <label class="form-label"
+              >I accept the terms and conditions of the
+              <a href="./index.html" class="privacy-policy"
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button type="submit" class="form-button">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
