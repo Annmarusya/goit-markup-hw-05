@@ -652,24 +652,32 @@
             </div>
           </div>
 
-          <label class="form-label input">
-            Comment
+          <div class="comment-box">
+            <label for="user-comment" class="form-label input"> Comment</label>
             <textarea
-              name="comment"
+              id="user-comment"
+              name="user-comment"
               rows="5"
               placeholder="Text input"
+              class="comment"
             ></textarea>
-          </label>
+          </div>
           <div class="form-privacy">
             <input
-              class="checkbox"
+              id="user-privacy"
+              class="checkbox visually-hidden"
               type="checkbox"
-              name="accept"
-              value="I accept the terms and conditions of the Privacy Policy"
+              name="user-privacy"
+              value="true"
               required
             />
-            <label class="form-label"
-              >I accept the terms and conditions of the
+            <label class="form-label" for="user-privacy">
+              <span class="checkbox-icon-box">
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="./index.html" class="privacy-policy"
                 >Privacy Policy</a
               ></label
