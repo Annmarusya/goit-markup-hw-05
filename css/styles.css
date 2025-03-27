@@ -674,8 +674,8 @@ button:hover, button:focus{
     fill: transparent;
  }
 
- .checkbox:checked+.checkbox-icon-box {
+.checkbox:checked + .form-label .checkbox-icon-box {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
- }
+}
