@@ -200,10 +200,6 @@ button:hover, button:focus{
 .features {
     padding: 120px 0;
 }
-.features-title {
-    
-}
-
 
 .features-list {
     display: flex;
@@ -218,8 +214,6 @@ button:hover, button:focus{
     margin-bottom: 8px;
 }
 
-.features-list-text {
-}
 
 .icon-features {
     margin-bottom: 8px;
@@ -232,16 +226,12 @@ button:hover, button:focus{
     align-items: center;
     justify-content: center;
 }
-.icon-features .icon {
-   
-}
+
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
 }
-.container-team{
-    
-}
+
 .team-title {
     text-transform: capitalize;
     margin-bottom: 72px;
@@ -261,10 +251,6 @@ button:hover, button:focus{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-list-image {
-
-}
-
 .team-item {
     padding: 32px 0;
 }
@@ -272,7 +258,6 @@ button:hover, button:focus{
 .link-team:hover, .link-team:focus {
     background-color: #404bbf;
  }
-
 
 .social-links-list {
     display: flex;
@@ -336,12 +321,9 @@ button:hover, button:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
 .portfolio-list-item:hover .image-text{
     transform: translateY(0%);
 }
-
-.portfolio-list-image {}
 
 .image-text {
     font-size: 16px;
@@ -359,7 +341,6 @@ button:hover, button:focus{
 }
 
 
-
 .portfolio-image {
     position: relative;
     overflow: hidden;
@@ -368,13 +349,6 @@ button:hover, button:focus{
     margin-bottom: 8px;
 }
 
-.portfolio-list-text {}
-
-.logo {}
-
-.footer-logo {}
-
-.logo-part {}
 
 .page-footer .container {
     display: flex;
@@ -442,7 +416,7 @@ button:hover, button:focus{
 }
 
 .subscribe {
-    margin-left: auto;
+    margin-left: 80px;
 }
 
 .form-subscr {
@@ -474,7 +448,6 @@ button:hover, button:focus{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
  }
  
-
  .footer-social-subtitle {
     margin-bottom: 16px;
  }
@@ -487,7 +460,6 @@ button:hover, button:focus{
  .subscribe-button svg {
     margin-left: 16px;
  }
-
 
  .modal-overlay {
      background-color: rgba(46, 47, 66, 0.4);
